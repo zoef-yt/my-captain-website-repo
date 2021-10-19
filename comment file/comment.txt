@@ -1,0 +1,5 @@
+purple #A977FF
+blue #4F92FF
+light black #211E1E
+black #000000
+
