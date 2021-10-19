@@ -3,3 +3,7 @@ blue #4F92FF
 light black #211E1E
 black #000000
 
+bowling blender 
+dalgona 
+kunai
+chess
