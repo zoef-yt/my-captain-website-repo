@@ -12,7 +12,7 @@ h6 {
   font-family: "Montserrat-Bold";
 }
 .container-fluid {
-  padding: 2% 15%;
+  padding: 3% 15%;
 }
 
 .navbar {
@@ -33,16 +33,37 @@ h6 {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
-
+.intro-part {
+  margin-top: 100px;
+}
+.zoef-image {
+  width: 40%;
+  border-radius: 50%;
+}
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
-  line-height: 1.5;
 }
 .dark-black-section {
   background-color: black;
 }
-
-.feature-box {
+.light-black-section {
+  background-color: #211e1e;
+}
+.clickable-icons {
   padding: 4.5%;
+  margin-top: 100px;
+}
+.clickable-icons img {
+  width: 60%;
+}
+
+.blue-color {
+  color: #4f92ff;
+}
+.about-me-center-div {
+  margin: 100px;
+}
+.white-color {
+  color: white;
 }
