@@ -43,7 +43,7 @@
             <img class="zoef-image" src="assets/images/zoef_image/zoef.jpg" alt="zoef-image" />
           </div>
           <div class="col-lg-6">
-            <h1 class="big-heading" style="color: white">I CREATE</h1>
+            <h1 class="big-heading" style="color: white">I Create</h1>
             <h1 class="big-heading" style="color: #a977ff">Flutter Mobile Apps,</h1>
             <h1 class="big-heading" style="color: #a977ff">3D Models,</h1>
             <h1 class="big-heading" style="color: #a977ff">Websites</h1>
@@ -51,7 +51,7 @@
         </div>
 
         <!-- links -->
-        <div class="row">
+        <div class="row row-cols-3">
           <div class="clickable-icons col-sm-2">
             <a href="https://github.com/zoef-yt" target="_blank" rel="noopener noreferrer"
               ><img src="assets/images/icons/github.svg" alt=""
@@ -92,63 +92,84 @@
     <!-- !ABOUT me section -->
 
     <section class="light-black-section" id="about_me">
-      <div class="container-fluid">
+      <div class="col-sm-12 align-self-center container-fluid">
         <div>
-          <h1 class="big-heading" style="color: white">ABOUT <span style="color: #a977ff"> ME</span></h1>
-          <div class="about-me-center-div">
-            <h1 class="big-heading blue-color">HELLO THERE!</h1>
-            <h1 class="big-heading blue-color">MY NAME IS <span class="white-color">ZOEF SHAIKH</span></h1>
-            <h1 class="big-heading blue-color">I AM <span style="color: white">20</span></h1>
-            <h1 class="big-heading white-color">GAMER,</h1>
-            <h1 class="big-heading white-color">DEVELOPER,</h1>
+          <h1 class="big-heading" style="color: white">About <span style="color: #a977ff"> Me</span></h1>
+          <div class="col-sm-2 col-md-12 align-self-center about-me-center-div">
+            <h1 class="big-heading blue-color">Hello there!</h1>
+            <h1 class="big-heading blue-color">My Name Is <span class="white-color">Zoef Shaikh,</span></h1>
+            <h1 class="big-heading blue-color">I Am <span style="color: white">20,</span></h1>
+            <h1 class="big-heading white-color">Gamer,</h1>
+            <h1 class="big-heading white-color">Developer,</h1>
             <h1 class="big-heading blue-color">
-              SOMETIMES I MAKE <span style="color: white">3D MODELS.</span>
+              Sometimes I Make <span style="color: white">3D Models.</span>
             </h1>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- !Projects section here -->
+    <!-- !My Projects section here -->
 
     <section class="dark-black-section" id="projects">
-      <div>
-        <div style="padding: 20px">
-          <h1 class="center" style="color: #a977ff; font-size: 20px">
-            MY <span style="color: white"> PROJECTS</span>
-          </h1>
-          <div style="margin: 100px auto auto auto; width: 50%">
-            <img
-              height="450px"
-              style="object-fit: contain"
-              width="210px"
-              src="assets/images/project_images/bowling.png"
-              alt="bowling image rendered in blender"
-            />
-            <img
-              height="450px"
-              style="object-fit: contain"
-              width="210px"
-              src="assets/images/project_images/chess.png"
-              alt="bowling image rendered in blender"
-            />
-            <img
-              height="450px"
-              style="object-fit: contain"
-              width="210px"
-              src="assets/images/project_images/dalgona.png"
-              alt="bowling image rendered in blender"
-            />
-            <video
-              height="450px"
-              style="object-fit: contain"
-              width="210px"
-              autoplay
-              controls
-              loop
-              src="assets/images/video/kunai video 1.mp4"
-            ></video>
+      <div class="col-sm-12 align-self-center container-fluid">
+        <h1 class="big-heading" style="color: white">My <span style="color: #a977ff"> Projects</span></h1>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">
+                I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.
+              </h2>
+              <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile" />
+              <em>Pebbles, New York</em>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text">
+                My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I
+                think.
+              </h2>
+              <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile" />
+              <em>Beverly, Illinois</em>
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <div style="margin: 100px auto auto auto; width: 50%">
+          <img
+            height="450px"
+            style="object-fit: contain"
+            width="210px"
+            src="assets/images/project_images/bowling.png"
+            alt="bowling image rendered in blender"
+          />
+          <img
+            height="450px"
+            style="object-fit: contain"
+            width="210px"
+            src="assets/images/project_images/chess.png"
+            alt="bowling image rendered in blender"
+          />
+          <img
+            height="450px"
+            style="object-fit: contain"
+            width="210px"
+            src="assets/images/project_images/dalgona.png"
+            alt="bowling image rendered in blender"
+          />
+          <video
+            height="450px"
+            style="object-fit: contain"
+            width="210px"
+            autoplay
+            controls
+            loop
+            src="assets/images/video/kunai video 1.mp4"
+          ></video>
         </div>
       </div>
     </section>
@@ -156,7 +177,7 @@
     <!-- !contact section here -->
 
     <section id="contact">
-      <div style="background-color: #000000">
+      <div class="container-fluid" style="background-color: #000000">
         <div style="padding: 20px">
           <h1 class="center" style="color: #a977ff; font-size: 20px">
             CONTACT <span style="color: white"> HERE</span>

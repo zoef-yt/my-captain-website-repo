@@ -39,31 +39,35 @@ h6 {
 .zoef-image {
   width: 40%;
   border-radius: 50%;
+  margin: 50px auto;
 }
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-size: 3vw;
+}
+.clickable-icons {
+  padding: 4.5%;
+  margin-top: 50px;
+}
+.clickable-icons img {
+  width: 50%;
+}
+
+.about-me-center-div {
+  margin: 100px auto;
+}
+
+/* !colors */
+
+.white-color {
+  color: white;
+}
+.blue-color {
+  color: #4f92ff;
 }
 .dark-black-section {
   background-color: black;
 }
 .light-black-section {
   background-color: #211e1e;
-}
-.clickable-icons {
-  padding: 4.5%;
-  margin-top: 100px;
-}
-.clickable-icons img {
-  width: 60%;
-}
-
-.blue-color {
-  color: #4f92ff;
-}
-.about-me-center-div {
-  margin: 100px;
-}
-.white-color {
-  color: white;
 }
