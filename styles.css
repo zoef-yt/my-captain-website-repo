@@ -87,6 +87,40 @@ h6 {
   margin: 10px auto;
   padding: 15px;
 }
+
+.css-input {
+  padding: 11px;
+  font-size: 21px;
+  border-width: 2px;
+  border-color: #a977ff;
+  background-color: #000000;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 11px;
+}
+
+.css-input:focus {
+  outline: none;
+}
+
+.submit-button {
+  font-family: arial;
+  color: white;
+  font-size: 2.5vw;
+  padding: 10px 62px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  border: 3px solid #4f92ff;
+  background: #000000;
+}
+.submit-button:hover {
+  color: #ffffff;
+  background: grad;
+  background: linear-gradient(top, #4f92ff, #4f92ff);
+  background: -ms-linear-gradient(top, #4f92ff, #4f92ff);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f92ff), to(#4f92ff));
+  background: -moz-linear-gradient(top, #4f92ff, #4f92ff);
+}
 /* !colors */
 
 .white-color {
