@@ -40,7 +40,7 @@ h6 {
 }
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   line-height: 1.5;
 }
 .clickable-icons {
@@ -62,9 +62,25 @@ h6 {
 }
 .my-project-image {
   border-radius: 15px;
-  width: 90%;
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
   border: white solid 4px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-item a .my-project-image:hover {
+  border: #a977ff solid 10px;
+}
+@media (max-width: 450px) {
+  .my-project-image {
+    border-radius: 15px;
+    height: 10rem;
+    width: 90%;
+    object-fit: cover;
+    border: white solid 4px;
+    margin-top: 20px;
+  }
 }
 .contact-text {
   font-size: 2rem;
@@ -81,10 +97,13 @@ h6 {
   margin: 10px auto;
   padding: 15px;
 }
-
+.input-box {
+  padding: 0%;
+}
 .css-input {
+  margin: 10px auto;
   padding: 11px;
-  font-size: 21px;
+  font-size: 1rem;
   border-width: 2px;
   border-color: #a977ff;
   background-color: #000000;
