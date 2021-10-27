@@ -57,10 +57,43 @@ h6 {
   margin: 100px auto;
 }
 
+/* my project */
+
+.my-project-text {
+  color: #a977ff;
+  font-size: 3vw;
+  line-height: 1.5;
+}
+.logo-img {
+  width: 8%;
+}
+.my-project-image {
+  border-radius: 15px;
+  width: 50%;
+  border: white solid 4px;
+  margin: 20px;
+}
+.contact-text {
+  font-size: 1.8vw;
+}
+
+.contact-div-style {
+  background-color: black;
+  border-radius: 15px;
+  margin: 5px 10px;
+}
+
+.feature-box {
+  margin: 10px auto;
+  padding: 15px;
+}
 /* !colors */
 
 .white-color {
   color: white;
+}
+.purple-color {
+  color: #a977ff;
 }
 .blue-color {
   color: #4f92ff;
