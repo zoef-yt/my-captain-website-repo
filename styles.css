@@ -33,9 +33,6 @@ h6 {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
-.intro-part {
-  margin-top: 100px;
-}
 .zoef-image {
   width: 40%;
   border-radius: 50%;
@@ -43,25 +40,21 @@ h6 {
 }
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3vw;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 .clickable-icons {
   padding: 4.5%;
-  margin-top: 50px;
 }
 .clickable-icons img {
-  width: 50%;
-}
-
-.about-me-center-div {
-  margin: 100px auto;
+  width: 2rem;
 }
 
 /* my project */
 
 .my-project-text {
   color: #a977ff;
-  font-size: 3vw;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .logo-img {
@@ -69,12 +62,13 @@ h6 {
 }
 .my-project-image {
   border-radius: 15px;
-  width: 50%;
+  width: 90%;
   border: white solid 4px;
   margin: 20px;
 }
 .contact-text {
-  font-size: 1.8vw;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .contact-div-style {
@@ -106,7 +100,7 @@ h6 {
 .submit-button {
   font-family: arial;
   color: white;
-  font-size: 2.5vw;
+  font-size: 2.5rem;
   padding: 10px 62px;
   -moz-border-radius: 16px;
   border-radius: 16px;
